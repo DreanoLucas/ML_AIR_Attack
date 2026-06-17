@@ -1,0 +1,23 @@
+{
+  "constant": [
+    "num_outbound_cmds",
+    "is_host_login"
+  ],
+  "redundant": [
+    "dst_host_serror_rate",
+    "num_compromised",
+    "rerror_rate",
+    "serror_rate",
+    "srv_rerror_rate",
+    "srv_serror_rate"
+  ],
+  "log_cols": [
+    "duration",
+    "src_bytes",
+    "dst_bytes",
+    "count",
+    "srv_count",
+    "dst_host_count",
+    "dst_host_srv_count"
+  ]
+}
